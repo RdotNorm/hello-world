@@ -7,3 +7,9 @@ h1 {
 font-size: 25px;
 color:aliceblue;
 }
+
+.grid{
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas: "a a" "b c" "d d";
+}
